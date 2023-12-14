@@ -255,8 +255,8 @@ a {
     border: 0;
     padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
     overflow: hidden;
 }
 .feature-item-title {
@@ -267,12 +267,18 @@ a {
 
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px
+}
+team-title {
+    margin-bottom: 72px;
 }
 
 .team-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
@@ -282,6 +288,9 @@ a {
     margin-bottom: 120px;
     
 }
+
+
+
 
 .team-item-img {
     width: 264 px;
