@@ -42,18 +42,6 @@ button {
     padding-bottom: 120px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    overflow: hidden;
-}
 
 /* Reset styles */
 h1,
@@ -109,13 +97,13 @@ a {
 }
 .header-list {
     display: flex;
-    gap: 40px
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-item {
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 
     color: #2E2F42;
     font-weight: 500;
@@ -166,7 +154,7 @@ a {
 .solution {
     background-color: #2E2F42;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
 
 }
 
@@ -177,7 +165,7 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 48px;
@@ -193,13 +181,15 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 169px;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-right: 32px;
     padding-left: 32px;
     align-items: center;
     border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 
 
 }
@@ -255,6 +245,22 @@ a {
 .portfolio-item-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+}
+.feature-item-title {
+    margin-bottom: 8px;
 }
 
 /* секція 3 Our Team */
