@@ -315,13 +315,21 @@ a {
 
 /* секція 4 Our Portfolio */
 
-.portfolio {}
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio-title {
+    margin-bottom: 72px;
+
+}
 
 .portfolio-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 
 .portfolio-item {
@@ -329,9 +337,23 @@ a {
     margin-bottom: 120px;
     border: 1px solid #E7E9FC;
 }
+.portfolio-item:first-child {
+    width: calc((100% - 48px) / 3);
+}
 
 .portfolio-item-img {
     width: 360px;
+}
+.container-portfolio {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.portfolio-item-title {
+    margin-bottom: 8px;
 }
 
 
