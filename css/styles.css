@@ -12,6 +12,10 @@ body {
       background-color: white; */
 }
 
+img {
+    display: block;
+}
+
 a {
     color: currentColor;
     text-decoration: none;
@@ -77,6 +81,7 @@ a {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
@@ -104,15 +109,19 @@ a {
 }
 .header-list {
     display: flex;
+    gap: 40px
 }
 
 .header-item {
     margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 
 .header-item:last-child {
