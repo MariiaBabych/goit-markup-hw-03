@@ -270,8 +270,13 @@ a {
     padding-top: 120px;
     padding-bottom: 120px
 }
-team-title {
+.team-title {
     margin-bottom: 72px;
+}
+
+.team-item-title {
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-list {
@@ -289,11 +294,19 @@ team-title {
     
 }
 
+.team-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 
 
 .team-item-img {
     width: 264 px;
+}
+
+.team-item-text {
+    text-align: center;
 }
 
 
